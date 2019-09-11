@@ -31,6 +31,21 @@
   </developers>
 
   <dependencies>
+        <dependency>
+            <groupId>${alfresco.groupId}</groupId>
+            <artifactId>share</artifactId>
+            <version>${alfresco.share.version}</version>
+            <classifier>classes</classifier>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.extensions.surf</groupId>
+            <artifactId>spring-surf-api</artifactId>
+            <version>5.1.e</version>
+            <scope>provided</scope>
+        </dependency>
+    
+    <!--
     <dependency>
       <groupId>${alfresco.groupId}</groupId>
       <artifactId>alfresco-share</artifactId>
@@ -43,5 +58,6 @@
         </exclusion>
       </exclusions>
     </dependency>
+-->
   </dependencies>
 </project>
