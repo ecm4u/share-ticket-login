@@ -10,6 +10,11 @@
   <version>1.0.0</version>
   <name>Share Ticket Login</name>
   <description>Module for automatically logging in a user in Share if the parameter alfTicket is present in the URL with a valid backend ticket.</description>
+  
+  <properties>
+      <alfresco.version>5.1.e</alfresco.version>
+  </properties>
+  
   <developers>
     <developer>
       <id>niklas.ekman</id>
